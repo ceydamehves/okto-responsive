@@ -78,13 +78,13 @@ svg {
   fill: #28a745;
 }
 .facebook:hover {
-  fill: #002752;
+  fill: #3b5998;
 }
 .insta:hover {
-  fill: mediumvioletred;
+  fill: #E1306C;
 }
 .linkedin:hover {
-  fill: #0069d9;
+  fill: #0072b1;
 }
 .youtube:hover {
   fill: red;
