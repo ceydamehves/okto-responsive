@@ -54,7 +54,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
 }
 
@@ -69,11 +69,26 @@ h1, h2, h3, h4, h5, h6 {
 .oktoLogo {
   height: 6vh;
 }
-.icon {
-  width: 32px;
+
+svg {
+  width: 28px;
+  fill: #fff;
+  margin: 5px;
 }
-.icon:hover {
-  width: 33px;
+.mail:hover {
+  fill: #28a745;
+}
+.facebook:hover {
+  fill: #002752;
+}
+.insta:hover {
+  fill: mediumvioletred;
+}
+.linkedin:hover {
+  fill: #0069d9;
+}
+.youtube:hover {
+  fill: red;
 }
 .shop {
   height: 14px;
@@ -8355,6 +8370,7 @@ a:hover {
 }
 
 .footer {
+  text-align: center;
   position: relative;
   width: 100%;
   z-index: 999;
